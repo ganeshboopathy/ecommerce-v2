@@ -8,7 +8,7 @@ import { FaCaretDown } from "react-icons/fa";
 
 
 const Navbar = ({ theme, setTheme }) => {
-    let style_li = `inline-block w-full rounded-md p-2 hover:bg-primary/20 .33`;
+    let style_li = `inline-block w-full rounded-md p-2 hover:bg-primary/20 .33  hover:text-primary  `;
     return (
         <div className='shadow-md bg-white dark:bg-gray-900 dark:text-white'>
             {/* upper navbar*/}
@@ -59,7 +59,7 @@ const Navbar = ({ theme, setTheme }) => {
                 <li className='hover:text-primary'>Electronics</li>
                 <li className='flex gap-1.5 items-center group relative hover:text-primary'> Trending Products
                     <span className='transition-all duration-200 group-hover:rotate-180'><FaCaretDown/></span>
-                    <div className='hidden absolute z-[999] group-hover:block w-[200px]  rounded-bl-md shadow-md bg-white text-black p-2 text-sm font-medium top-7'>
+                    <div className='hidden absolute z-[999] group-hover:block w-[200px]  rounded-bl-md shadow-md bg-white text-black p-2 text-sm font-medium top-7 dark:bg-gray-900 dark:text-white'>
                         <li className={style_li}>Trending Products</li>
                         <li className={style_li}>Best Selling</li>
                         <li className={style_li}>Top Rated</li>

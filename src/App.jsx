@@ -6,6 +6,10 @@ import Products from "./Component/Product/Products";
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 import TopProduct from "./Component/TopProduct/TopProduct";
+import Banner from "./Component/Banner/Banner";
+import Subscribe from "./Component/Subscribe/Subscribe";
+import Testimonials from "./Component/Testimonials/Testimonials";
+import Footer from "./Component/Footer/Footer";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -25,7 +29,12 @@ function App() {
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero />
       <Products />
-      <TopProduct/>
+      <TopProduct />
+      <Banner />
+      <Subscribe />
+      <Products/>
+      <Testimonials/>
+      <Footer/>
     </div>
   );
 }

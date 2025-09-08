@@ -29,7 +29,7 @@ const ProductsData = [
 ];
 const TopProduct = () => {
     return (
-        <div className='pt-18 pl-16 dark:bg-gray-900 '>
+        <div className='pt-18 pb-8 pl-16 dark:bg-gray-900 '>
             <div>
                 <div >
                     <p data-aos="fade-up" className='text-primary text-sm font-bold' >Top Selling Products for you</p>

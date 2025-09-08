@@ -42,7 +42,6 @@ const Hero = () => {
             {/* Hero pattern */}
             <div className='container pb-8 sm:pb-0 relative z-10'>
                 <Swiper
-                
                     spaceBetween={30}
                     centeredSlides={true}
                     autoplay={{
